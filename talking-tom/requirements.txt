@@ -1,3 +1,4 @@
 pyaudio
 SpeechRecognition
 playsound
+pydub
