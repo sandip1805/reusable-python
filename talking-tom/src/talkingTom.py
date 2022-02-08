@@ -13,6 +13,7 @@ class TalkingTom:
                 file.write(audio.get_wav_data())  
             self.updateSamplingRate()          
             playsound("recorded.wav")
+            print("---------------------------------------------------------")
 
     def updateSamplingRate(self) :
         sound = AudioSegment.from_file('recorded.wav', format="wav")
